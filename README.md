@@ -68,7 +68,7 @@ jupyter-lab examples
 
 ## License
 
-The code in this project is licensed under the [Your License Name].
+The code in this project is licensed under the GPL-3.0 license.
 
 Portions of this project are based on code from 
 [PureJaxRL](https://github.com/luchris429/purejaxrl) and 
