@@ -1,0 +1,12 @@
+This project includes modified code (PPO implementation) from
+PureJaxRL (https://github.com/luchris429/purejaxrl) under the Apache License,
+Version 2.0.
+
+The code is modified to work with the flightning environment API.
+
+
+This project includes modified code (Spaces class) from
+gymnax (https://github.com/RobertTLange/gymnax) under the Apache License,
+Version 2.0.
+
+The code is modified to work with the flightning environment API.

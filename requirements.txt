@@ -1,0 +1,11 @@
+jax[cuda12]
+flax
+optax
+matplotlib
+numpy
+chex
+tqdm
+pyyaml
+jax_dataclasses
+distrax
+jupyterlab

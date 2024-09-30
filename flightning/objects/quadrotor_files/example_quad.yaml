@@ -1,0 +1,18 @@
+mass:               0.2                         # [kg]
+tbm_fr:             [ 0.04, -0.04, 0.0]         # [m]
+tbm_bl:             [-0.04,  0.04, 0.0]         # [m]
+tbm_br:             [-0.04, -0.04, 0.0]         # [m]
+tbm_fl:             [ 0.04,  0.04, 0.0]         # [m]
+inertia:            [0.00014, 0.00016, 0.0002]  # [kgm^2]
+motor_omega_min:    150.0                       # [rad/s]
+motor_omega_max:    4400.0                      # [rad/s]
+motor_tau:          0.033                       # [s]
+
+motor_inertia:      2.6e-07                      # [kgm^2]
+omega_max:          [6.0, 6.0, 4.0]             # [rad/s]
+
+thrust_map:         [2.0e-7, 0.0,  0.0]           # [N/(rad/s)^2, N/(rad/s), N]
+kappa:              0.008                       # [Nm/N]
+thrust_min:         0.0                         # [N]
+thrust_max:         3.5                         # [N] per motor
+rotors_config:      "cross"
