@@ -1,10 +1,10 @@
 # Learning Quadrotor Control Using Differentiable Simulation 
 
-```
-#####################
-INSERT VIDEO HERE
-#####################
-```
+<p align="center">
+ <a href="https://youtu.be/LdgvGCLB9do">
+  <img src="https://img.youtube.com/vi/LdgvGCLB9do/0.jpg" alt="youtube_video" width="800"/>
+ </a>
+</p>
 
 This repository contains the flightning python package to learn quadrotor
 control policies using differentiable simulation. If you want to use this code,
