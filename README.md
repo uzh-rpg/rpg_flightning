@@ -8,10 +8,15 @@
 
 This repository contains the flightning python package to learn quadrotor
 control policies using differentiable simulation. If you want to use this code,
-please cite the following publication:
+please cite the following publication (https://arxiv.org/abs/2410.15979):
 
 ```tex
-# TODO: Add bibtex citation
+@misc{heeg2024learningquadrotorcontrolvisual,
+      title={Learning Quadrotor Control From Visual Features Using Differentiable Simulation}, 
+      author={Johannes Heeg and Yunlong Song and Davide Scaramuzza},
+      year={2024},
+      url={https://arxiv.org/abs/2410.15979}, 
+}
 ```
 ## Abstract
 
