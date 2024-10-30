@@ -308,11 +308,11 @@ if __name__ == "__main__":
 
     # Example usage
     from flightning.modules.mlp import ActorCriticPPO
-    from flightning.envs import DroneRacingEnv
+    from flightning.envs import HoveringStateEnv
     from flightning.envs.wrappers import NormalizeActionWrapper
     import optax
 
-    env = DroneRacingEnv(max_steps_in_episode=1000)
+    env = HoveringStateEnv()
     env = NormalizeActionWrapper(env)
 
     num_actions = env.action_space.shape[0]
@@ -331,9 +331,9 @@ if __name__ == "__main__":
     train_res = train(
         env,
         train_state,
-        num_epochs=100,
-        num_steps_per_epoch=250,
-        num_envs=100,
+        num_epochs=10,
+        num_steps_per_epoch=10,
+        num_envs=10,
         key=jax.random.key(1),
         config=Config(num_minibatches=1, update_epochs=10),
     )

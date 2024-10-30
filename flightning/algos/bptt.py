@@ -158,7 +158,7 @@ def train(
 if __name__ == "__main__":
     # Example usage
     from flax.linen import Dense
-    from flightning.envs.simple_hovering_env import SimpleHoveringEnv
+    from flightning.envs import HoveringStateEnv
     import optax
 
     x = jnp.zeros(15)
@@ -172,7 +172,7 @@ if __name__ == "__main__":
         tx=tx,
     )
 
-    env = SimpleHoveringEnv()
+    env = HoveringStateEnv()
 
     res_dict = train(
         env,
