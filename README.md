@@ -1,10 +1,11 @@
-# Learning Quadrotor Control Using Differentiable Simulation 
+# Learning Quadrotor Control Using Differentiable Simulation
 
 <p align="center">
- <a href="https://youtu.be/LdgvGCLB9do">
-  <img src="https://img.youtube.com/vi/LdgvGCLB9do/0.jpg" alt="youtube_video" width="800"/>
- </a>
+  <a href="https://youtu.be/LdgvGCLB9do">
+    <img src="https://img.youtube.com/vi/LdgvGCLB9do/maxresdefault.jpg" alt="youtube_video" width="800"/>
+  </a>
 </p>
+
 
 This repository contains the flightning python package to learn quadrotor
 control policies using differentiable simulation. If you want to use this code,
@@ -45,7 +46,7 @@ you can still run the code, but it will be slower.
 ### Create Environment
 
 ```bash
-mamba create -n flightning python
+mamba create -n flightning python=3.9
 mamba activate flightning
 ```
 
