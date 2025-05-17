@@ -1,4 +1,4 @@
-# Learning Quadrotor Control Using Differentiable Simulation
+# Learning Quadrotor Control From Visual Features Using Differentiable Simulation
 
 <p align="center">
   <a href="https://youtu.be/LdgvGCLB9do">
