@@ -8,7 +8,7 @@
 
 
 This repository contains the flightning python package to learn quadrotor
-control policies using differentiable simulation. If you want to use this code,
+control policies using differentiable simulation. If you use this code,
 please cite the following publication (https://arxiv.org/abs/2410.15979):
 
 ```tex
