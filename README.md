@@ -12,10 +12,11 @@ control policies using differentiable simulation. If you want to use this code,
 please cite the following publication (https://arxiv.org/abs/2410.15979):
 
 ```tex
-@misc{heeg2024learningquadrotorcontrolvisual,
+@misc{heegIcra2025,
       title={Learning Quadrotor Control From Visual Features Using Differentiable Simulation}, 
       author={Johannes Heeg and Yunlong Song and Davide Scaramuzza},
-      year={2024},
+      year={2025},
+      booktitle={IEEE International Conference on Robotics and Automation, 2025}
       url={https://arxiv.org/abs/2410.15979}, 
 }
 ```
