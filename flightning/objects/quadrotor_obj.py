@@ -298,9 +298,12 @@ class Quadrotor:
 
             p_tan, R_tan, v_tan = tan_out
 
+            # PRNG keys are non-differentiable: their tangent must be float0
+            key_tan = np.zeros(jnp.shape(state.dr_key), dtype=jax.dtypes.float0)
+
             state_dot_new = state_dot.replace(
                 p=p_tan, R=R_tan,
-                v=v_tan, dr_key=state.dr_key
+                v=v_tan, dr_key=key_tan
             )
 
             return state_new, state_dot_new
